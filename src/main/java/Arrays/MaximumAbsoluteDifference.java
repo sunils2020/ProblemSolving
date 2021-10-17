@@ -22,6 +22,34 @@ public class MaximumAbsoluteDifference {
         System.out.println(maxDiff);
     }
 
+    /*
+        Approach :
+
+        |a[i] - a[j]| + |i - j|
+==>     This can be written as - considering +/- scenarios if not modulo operation
+
+Case 1  : a[i] > a[j] and i>j
+          This can also be written as   (a[i]+i)  - (a[j]+j)
+
+Case 2  : a[i] < a[j] and i>j
+          This can also be written as   - (a[i]-i) - (-a[j]+j)
+
+Case 3  : a[i] < a[j] and i<j
+          This can also be written as   -(a[i]+i)  - (-a[j]-j)
+
+Case 4  : a[i] > a[j] and i<j
+          This can also be written as   (a[i]-i)  - (a[j]-j)
+
+Case 2 and Case 3 will end up in negative values but we were asked to find the maximum value.
+
+i and j is same except for the index.
+
+Golden rule : Maximum value and minimum value difference will be the largest difference
+
+Take 2 sets of difference and return the largest difference
+
+
+    */
     public int maxArr(int[] array) {
         int[] case1 = new int[array.length];
         int case1Min = Integer.MAX_VALUE;
