@@ -20,12 +20,6 @@ public class MaximumSubArray {
                           Calculate -3       = -3
     */
 
-
-
-
-
-
-
     /*
         Efficient Approach :
 
