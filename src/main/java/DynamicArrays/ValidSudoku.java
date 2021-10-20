@@ -1,4 +1,4 @@
-package Arrays;
+package DynamicArrays;
 
 import java.util.ArrayList;
 import java.util.HashMap;
