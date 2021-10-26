@@ -3,7 +3,7 @@ package GCD;
 public class GCDof2Numbers {
     public static void main(String[] args) {
         GCDof2Numbers obj = new GCDof2Numbers();
-        System.out.println(obj.gcd(6,8));
+        System.out.println(obj.gcd(810,708));
     }
     //  Hint in question : B is always greater than A
     //  GCD properties - GCD(a,b) = GCD( a,b%a) ==> here b is greater
