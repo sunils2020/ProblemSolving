@@ -28,7 +28,8 @@ public class GeneratePrimeNumbersUptoX {
         }
         for (int i=2;i<number;i++) {
             int dividingFactor = i;
-            if (arrays[dividingFactor]==0) continue;
+            if (arrays[dividingFactor]==0) continue;    // If it is not a prime then the loop will not happen
+            // which means the time complexity is N/2 + N/3 + N/5 + ... all primes  ==> ( N * Log (Log n))
             for (int j = i * 2; j < arrays.length; j = j + i) {
                 arrays[j] = 0;
             }
