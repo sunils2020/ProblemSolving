@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class GeneratePrimeNumbersUptoX {
     public static void main(String[] args) {
         GeneratePrimeNumbersUptoX obj = new GeneratePrimeNumbersUptoX();
-        obj.getAllPrimeNumbers(100);
+        System.out.println(obj.getAllPrimeNumbers(100).toString());
     }
 
     //  Generate all prime numbers
