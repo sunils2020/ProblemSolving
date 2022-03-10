@@ -7,7 +7,7 @@ import java.util.List;
 public class ConstructArrayUsingClue {
     public static void main(String[] args) {
         ConstructArrayUsingClue obj = new ConstructArrayUsingClue();
-        //sample
+        //sample2
         System.out.println(obj.solve(9, 1, 22));
     }
 
