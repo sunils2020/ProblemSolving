@@ -7,11 +7,12 @@ import java.util.List;
 public class ConstructArrayUsingClue {
     public static void main(String[] args) {
         ConstructArrayUsingClue obj = new ConstructArrayUsingClue();
+        //sample
         System.out.println(obj.solve(9, 1, 22));
     }
 
     /*
-        1. B and C are given
+        1. B and C are given,,,
         2. Hint : Equal difference between numbers . this means it is in AP
            Example:     20  30  40  50  60
            This can be written as
